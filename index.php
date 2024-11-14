@@ -16,15 +16,18 @@ require_once "conexionBD.php";
     <header>
         <button id="toggle-dark-mode">Light</button> <!-- Por defecto en modo oscuro -->
         <br>
-        <h1 class="text-center">Bienvenido a mi contador de visitas</h1>
+        <h1 class="text-center">Bienvenido al contador de Visitas en PHP y MYSQL</h1>
     </header>
 
     <main class="text-center">
+        <p class="text-center">Este sitio ha sido visitado</p>
+        <p><span class="numeroVisitantes"> <?php echo $numero_visitas; ?></span> veces.</p>
+        
+        <br><br>
         <h1>Fecha y Hora Actual</h1>
         <p>Hoy es <span class="numeroVisitantes"><?php echo "$dia_actual"; ?> <?php echo $fechaActual; ?></span></p>
         <p>Horario Argentina:</p>
         <div id="clock"></div>
-        <p>Este sitio ha sido visitado <span class="numeroVisitantes"> <?php echo $numero_visitas; ?></span> veces.</p>
         <!-- Aquí puedes agregar más contenido -->
     </main>
 
