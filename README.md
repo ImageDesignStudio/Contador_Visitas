@@ -31,5 +31,5 @@ La interfaz incluye:
 
 1. Clonar el repositorio: 
    ```bash
-   git clone https://github.com/ImageDesignStudio/contador-visitas.git
+   git clone https://github.com/ImageDesignStudio/03_Contador_Visitas.git
 
