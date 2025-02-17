@@ -1,4 +1,4 @@
-# 03_Contador_Visitas
+# Contador_Visitas
 
 Este proyecto es una aplicación web simple creada en PHP y MySQL que permite llevar un contador de visitas y mostrar la fecha, día y hora actual en Argentina. La interfaz cuenta con un modo oscuro y tiene un diseño minimalista.
 
